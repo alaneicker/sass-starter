@@ -1,0 +1,42 @@
+// Default font
+$default-font:  Poppins, Arial, Helvetica, sans-serif !default;
+
+// Root font size
+$root-font-size: 16 !default;
+
+// Defaullt line-height
+$default-line-height: 1.8 !default;
+
+// Text alignment
+$text-alignment-options: left right center !default;
+
+// Font sizes
+$font-sizes: 12 14 16 20 24 30 36 42 48 !default;
+
+// Font weights
+$font-light: 300;
+$font-light-italic: 300i;
+$font-normal: 400;
+$font-normal-italic: 400i;
+$font-medium: 500;
+$font-medium-italic: 500i;
+$font-semibold: 600;
+$font-semibold-italic: 600i;
+$font-bold: 700;
+$font-bold-italic: 700i;
+$font-black: 900;
+$font-black-italic: 900i;
+
+// Spacing increments
+$spacing-increments: 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 !default;
+
+// Breakpoints
+$breakpoint-small: 412px;
+$breakpoint-medium: 768px;
+$breakpoint-large: 1024px;
+
+$breakpoints: (
+  small: $breakpoint-small,
+  medium: $breakpoint-medium,
+  large: $breakpoint-large
+);
