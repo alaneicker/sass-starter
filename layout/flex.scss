@@ -7,6 +7,10 @@
       margin-left: rem($increment);
     }
   }
+
+  &--nowrap {
+    flex-wrap: nowrap;
+  }
   
   &--inline {
     display: inline-flex;
