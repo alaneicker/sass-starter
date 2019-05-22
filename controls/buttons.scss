@@ -8,6 +8,7 @@
   font-family: inherit;
   font-weight: 600;
   font-size: rem(16);
+  min-height: rem($input-height);
   outline: 0;
   padding: rem(12 24);
   text-transform: uppercase;
@@ -30,6 +31,10 @@
     color: $gray-2;
     box-shadow: 0;
     cursor: default;
+  }
+
+  &--pill {
+    border-radius: rem($input-height);
   }
   
   &--block {
