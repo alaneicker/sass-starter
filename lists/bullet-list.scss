@@ -1,0 +1,14 @@
+.bullet-list {
+  list-style-type: disc;
+  //margin: rem();
+
+  & > * + * {
+    margin-top: rem(4);
+  }
+
+  @each $increment in $list-spacing {
+    &--#{$name} > * + * {
+      margin-top: rem($increment);
+    }
+  }
+}
