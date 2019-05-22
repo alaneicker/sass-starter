@@ -4,7 +4,7 @@ $default-font:  Poppins, Arial, Helvetica, sans-serif !default;
 // Root font size
 $root-font-size: 16 !default;
 
-// Defaullt line-height
+// Default line-height
 $default-line-height: 1.8 !default;
 
 // Text alignment
@@ -36,7 +36,15 @@ $list-spacing: 8 16 24;
 // Inputs
 $input-height: 44;
 
+$input-sizes: (
+  sm: 50,
+  md: 100,
+  lg: 200
+);
+
 // Border radii
+$base-border-radius: 4;
+
 $border-radii-sm: rem(2) !default;
 $border-radii-md: rem(4) !default;
 $border-radii-lg: rem(6) !default;

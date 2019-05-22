@@ -1,6 +1,6 @@
 .btn {
   border: rem(1) solid $navy;
-  border-radius: rem(4);
+  border-radius: rem($base-border-radius);
   background: $white;
   color: $navy;
   cursor: pointer;
