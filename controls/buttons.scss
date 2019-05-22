@@ -1,8 +1,8 @@
 .btn {
-  border: rem(1) solid $navy;
+  border: rem(1) solid $blue-4;
   border-radius: rem($base-border-radius);
   background: $white;
-  color: $navy;
+  color: $blue-4;
   cursor: pointer;
   display: inline-block;
   font-family: inherit;
@@ -20,7 +20,7 @@
   
   &:focus,
   &:active {
-    box-shadow: rem(0 0 0 4) $input-focus;
+    box-shadow: rem(0 0 0 4) $blue-0;
   }
   
   &:disabled,
