@@ -1,0 +1,15 @@
+{
+  "name": "sass-starter",
+  "version": "1.0.0",
+  "description": "A simple Sass starter to help speed of development",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alaneicker/sass-starter.git"
+  },
+  "author": "Alan Eicker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alaneicker/sass-starter/issues"
+  },
+  "homepage": "https://github.com/alaneicker/sass-starter#readme"
+}
