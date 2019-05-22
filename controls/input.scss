@@ -6,7 +6,7 @@
   font-family: inherit;
 
   &:focus {
-    box-shadow: rem(0 0 0 4) $blue-0;
+    box-shadow: rem(0 0 0 4) $input-focus;
   }
 
   &--has-error {

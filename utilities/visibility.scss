@@ -1,43 +1,15 @@
-.display-block {
-  display: block;
-}
-
-.display-inline-block {
-  display: inline-block;
-}
-
-.display-none {
-  display: none;
-}
-
-.display-flex {
-  display: flex;
-}
-
-.display-inline-flex {
-  display: inline-flex;
+@each $value in $display-options {
+  .display-#{$value} {
+    display: $value;
+  }
 }
 
 @each $name, $breakpoint in $breakpoints {
   @media(min-width: $breakpoint) {
-    .display-block\@#{$name} {
-      display: block;
-    }
-    
-    .display-inline-block\@#{$name} {
-      display: inline-block;
-    }
-    
-    .display-none\@#{$name} {
-      display: none;
-    }
-    
-    .display-flex\@#{$name} {
-      display: flex;
-    }
-    
-    .display-inline-flex\@#{$name} {
-      display: inline-flex;
+    @each $value in $display-options {
+      .display-#{$value}\@#{name} {
+        display: $value;
+      }
     }
   }
 }
