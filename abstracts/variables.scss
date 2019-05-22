@@ -14,26 +14,35 @@ $text-alignment-options: left right center !default;
 $font-sizes: 12 14 16 20 24 30 36 42 48 !default;
 
 // Font weights
-$font-light: 300;
-$font-light-italic: 300i;
-$font-normal: 400;
-$font-normal-italic: 400i;
-$font-medium: 500;
-$font-medium-italic: 500i;
-$font-semibold: 600;
-$font-semibold-italic: 600i;
-$font-bold: 700;
-$font-bold-italic: 700i;
-$font-black: 900;
-$font-black-italic: 900i;
+$font-light: 300 !default;
+$font-light-italic: 300i !default;
+$font-normal: 400 !default;
+$font-normal-italic: 400i !default;
+$font-medium: 500 !default;
+$font-medium-italic: 500i !default;
+$font-semibold: 600 !default;
+$font-semibold-italic: 600i !default;
+$font-bold: 700 !default;
+$font-bold-italic: 700i !default;
+$font-black: 900 !default;
+$font-black-italic: 900i !default;
 
 // Spacing increments
 $spacing-increments: 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 !default;
 
+// List spacing
+$list-spacing: 8 16 24;
+
+// Border radii
+$border-radii-sm: rem(2) !default;
+$border-radii-md: rem(4) !default;
+$border-radii-lg: rem(6) !default;
+$border-radii-round: 50% !default;
+
 // Breakpoints
-$breakpoint-small: 412px;
-$breakpoint-medium: 768px;
-$breakpoint-large: 1024px;
+$breakpoint-small: 412px !default;
+$breakpoint-medium: 768px !default;
+$breakpoint-large: 1024px !default;
 
 $breakpoints: (
   small: $breakpoint-small,
