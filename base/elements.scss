@@ -1,0 +1,61 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: $white;
+  font-weight: $font-normal;
+  font-size: rem($root-font-size);
+  line-height: $default-line-height;
+  overflow-x: hidden;
+	-webkit-overflow-scrolling: touch;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+// Bold and Strong
+strong,
+b {
+  font-weight: $font-bold;
+}
+
+// Anchors
+a {
+	color: $link-light-blue;
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+// Headings
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+// Paragraphs
+p {
+  margin-top: rem(20);
+}
+
+// Placeholders
+::-webkit-input-placeholder {
+  color: $gray-3;
+}
+::-moz-placeholder {
+  color: $gray-3;
+}
+:-ms-input-placeholder {
+  color: $gray-3;
+}
+:-moz-placeholder {
+  color: $gray-3;
+}
