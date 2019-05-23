@@ -1,0 +1,5 @@
+@each $weight, $value in $text-weights {
+  .text-weight-#{$weight} {
+    color: $value;
+  }
+}

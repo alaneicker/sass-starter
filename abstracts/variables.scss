@@ -27,6 +27,21 @@ $font-bold-italic: 700i !default;
 $font-black: 900 !default;
 $font-black-italic: 900i !default;
 
+$text-weights: (
+  light: $font-light,
+  light-italic: $font-light-italic,
+  normal: $font-normal,
+  normal-italic: $font-normal-italic,
+  medium: $font-medium,
+  medium-italic: $font-medium-italic,
+  semibold: $font-semibold,
+  semibold-italic: $font-semibold-italic,
+  bold: $font-bold,
+  bold-italic: $font-bold-italic,
+  black: $font-black,
+  black-italic: $font-black-italic
+);
+
 // Spacing increments
 $spacing-increments: 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 !default;
 

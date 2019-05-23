@@ -24,10 +24,10 @@ b {
 // Anchors
 a {
 	color: $blue-200;
-	text-decoration: none;
+	text-decoration: underline;
 
 	&:hover {
-		text-decoration: underline;
+		color: $blue-300;
 	}
 }
 

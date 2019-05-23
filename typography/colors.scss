@@ -1,5 +1,5 @@
-@each $name, $value in $text-colors {
-  .text-color-#{$name} {
+@each $color, $value in $text-colors {
+  .text-color-#{$color} {
     color: $value;
   }
 }
