@@ -1,4 +1,5 @@
-.input {
+.text-input {
+  background: $white;
   border: rem(1) solid $gray-2;
   border-radius: $base-border-radius;
   height: $input-height;
@@ -29,4 +30,9 @@
       }
     }
   }
+}
+
+textarea.text-input {
+  padding: rem(16);
+  height: rem($text-area-height);
 }
