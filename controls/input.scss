@@ -4,6 +4,7 @@
   height: $input-height;
   font-size: inherit;
   font-family: inherit;
+  padding: rem(0 16);
 
   &:focus {
     box-shadow: rem(0 0 0 4) $input-focus;
