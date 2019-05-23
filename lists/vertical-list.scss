@@ -2,9 +2,9 @@
   & > * + * {
     margin-top: rem(4);
   }
-
+  
   @each $increment in $list-spacing {
-    &--#{$name} > * + * {
+    &--spacing-#{$increment} > * + * {
       margin-top: rem($increment);
     }
   }
