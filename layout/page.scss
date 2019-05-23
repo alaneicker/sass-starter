@@ -8,7 +8,7 @@
   // }
 
   &__body {
-    height: calc(100% - $header-height);
+    height: calc(100% - pixify($header-height));
     overflow: auto;
     scroll-behavior: smooth;
   }

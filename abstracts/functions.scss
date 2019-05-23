@@ -9,3 +9,20 @@
   }
   @return $rems;
 }
+
+@function pixify($values) {
+  $pxs: ();
+
+  @each $value in $values {
+      @if $value == 0 or $value == auto {
+          $pxs: append($pxs, $value);
+      } @else {
+          $pxs: append(
+              $pxs,
+              $value + px
+          );
+      }
+  }
+
+  @return $pxs;
+}
