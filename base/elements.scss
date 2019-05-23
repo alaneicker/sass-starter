@@ -43,7 +43,11 @@ h6 {
 
 // Paragraphs
 p {
-  margin-top: rem(20);
+  margin: rem(0 0 20);
+}
+
+* > p:last-child {
+  margin: 0;
 }
 
 // Placeholders
