@@ -44,8 +44,8 @@
   
   @each $name, $value in $btn-colors {
     &--#{$name} {
-      background: $value;
-      color: $white;
+      background: nth($value, 1);
+      color: nth($value, 2);
       border: 0;
       
       &:hover {
