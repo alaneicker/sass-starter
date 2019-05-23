@@ -1,14 +1,15 @@
 .text-input {
   background: $white;
   border: rem(1) solid $gray-400;
-  border-radius: $base-border-radius;
+  border-radius: rem($base-border-radius);
   height: $input-height;
   font-size: inherit;
   font-family: inherit;
-  padding: rem(0 16);
+  padding: rem(8);
+  outline: 0;
 
   &:focus {
-    box-shadow: rem(0 0 0 4) $blue-100;
+    @include focus-outline();
   }
 
   &--has-error {

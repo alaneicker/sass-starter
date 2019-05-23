@@ -10,7 +10,7 @@
   font-size: rem($root-font-size);
   min-height: rem($input-height);
   outline: 0;
-  padding: rem(12 24);
+  padding: rem(8 24);
   text-transform: uppercase;
   transition: background .3s linear;
   
@@ -20,7 +20,7 @@
   
   &:focus,
   &:active {
-    box-shadow: rem(0 0 0 4) $blue-100;
+    @include focus-outline();
   }
   
   &:disabled,
