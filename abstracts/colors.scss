@@ -21,7 +21,7 @@ $alert-colors: (
   confirmation: $green-100,
   error: $red-100,
   warning: $orange-100,
-);
+) !default;
 
 $text-colors: (
   black: $black,
@@ -31,14 +31,14 @@ $text-colors: (
   green: $green-100,
   blue: $blue-200,
   navy: $blue-400
-);
+) !default;
 
 $btn-colors: (
   default: $black,
   primary: $blue-200,
   secondary: $green-100,
   tertiary: $red-100
-);
+) !default;
 
 $background-colors: (
   red: $red-100,
@@ -50,4 +50,4 @@ $background-colors: (
   light-gray: $gray-600,
   black: $black,
   white: $white
-);
+) !default;

@@ -31,26 +31,26 @@ $font-black-italic: 900i !default;
 $spacing-increments: 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 !default;
 
 // Display options
-$display-options: block, inline-block, none, flex, inline-flex;
+$display-options: block, inline-block, none, flex, inline-flex !default;
 
 // List spacing
-$list-spacing: 8 16 24;
+$list-spacing: 8 16 24 !default;
 
 // Inputs
 $input-height: 44;
-$text-area-height: 120;
+$text-area-height: 120 !default;
 
 $input-sizes: (
   sm: 50,
   md: 100,
   lg: 200
-);
+) !default;
 
 // Border radii
-$base-border-radius: 4;
+$base-border-radius: 4 !default;
 
 // Header
-$header-height: 60px;
+$header-height: 60px !default;
 
 $border-radii-sm: rem(2) !default;
 $border-radii-md: rem(4) !default;
@@ -66,4 +66,4 @@ $breakpoints: (
   small: $breakpoint-small,
   medium: $breakpoint-medium,
   large: $breakpoint-large
-);
+) !default;
