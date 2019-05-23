@@ -46,7 +46,9 @@ $background-colors: (
   medium-blue: $blue-200,
   dark-blue: $blue-400,
   light-navy: lighten($blue-400, 10%),
-  light-gray: $gray-600,
+  light-gray: $gray-100,
+  medium-gray: $gray-300,
+  dark-gray: $gray-500,
   black: $black,
   white: $white
 ) !default;

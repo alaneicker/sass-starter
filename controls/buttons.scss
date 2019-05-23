@@ -1,8 +1,8 @@
 .btn {
-  border: rem(1) solid $blue-4;
+  border: rem(1) solid $blue-400;
   border-radius: rem($base-border-radius);
   background: $white;
-  color: $blue-4;
+  color: $blue-400;
   cursor: pointer;
   display: inline-block;
   font-family: inherit;
@@ -15,20 +15,20 @@
   transition: background .3s linear;
   
   &:hover {
-    background: $gray-5;
+    background: $gray-200;
   }
   
   &:focus,
   &:active {
-    box-shadow: rem(0 0 0 4) $blue-0;
+    box-shadow: rem(0 0 0 4) $blue-100;
   }
   
   &:disabled,
   &:disabled:hover,
   &:disabled:focus,
   &:disabled:active {
-    background: $gray-4;
-    color: $gray-2;
+    background: $gray-200;
+    color: $gray-400;
     box-shadow: 0;
     cursor: default;
   }

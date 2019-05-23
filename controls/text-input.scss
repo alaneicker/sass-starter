@@ -1,6 +1,6 @@
 .text-input {
   background: $white;
-  border: rem(1) solid $gray-2;
+  border: rem(1) solid $gray-400;
   border-radius: $base-border-radius;
   height: $input-height;
   font-size: inherit;
@@ -8,11 +8,11 @@
   padding: rem(0 16);
 
   &:focus {
-    box-shadow: rem(0 0 0 4) $input-focus;
+    box-shadow: rem(0 0 0 4) $blue-100;
   }
 
   &--has-error {
-    border-color: $red-1;
+    border-color: $red-100;
   }
 
   @each $size in $input-sizes {
