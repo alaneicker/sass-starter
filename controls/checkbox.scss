@@ -1,12 +1,7 @@
 .checkbox {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  border: $input-border;
+  @include appearance-reset();
+  @include form-option();
   border-radius: rem($base-border-radius);
-  height: rem(22);
-  width: rem(22);
-  outline: 0;
 
   &:focus {
     @include focus-outline();
