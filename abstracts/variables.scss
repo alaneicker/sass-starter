@@ -54,6 +54,7 @@ $list-spacing: 8 16 24 !default;
 // Inputs
 $input-height: 44;
 $text-area-height: 120 !default;
+$input-border: 1px solid $gray-400;
 
 $input-sizes: (
   sm: 50,
