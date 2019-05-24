@@ -1,3 +1,42 @@
 @mixin focus-outline {
   box-shadow: rem(0 0 0 4) $blue-100;
 }
+
+@mixin input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: $white;
+  border: rem(1) solid $gray-400;
+  border-radius: rem($base-border-radius);
+  height: rem($input-height);
+  font-size: inherit;
+  font-family: inherit;
+  padding: rem(8);
+  outline: 0;
+  width: 100%;
+
+  &:focus {
+    @include focus-outline();
+  }
+
+  &--has-error {
+    border-color: $red-100;
+  }
+
+  @each $name, $size in $input-sizes {
+    &--#{$name} {
+      width: rem($size);
+    }
+  }
+
+  @each $name, $breakpoint in $breakpoints {
+    @media(min-width: $breakpoint) {
+      @each $size in $input-sizes {
+        &--#{$size}\@#{$name} {
+          width: rem($size);
+        }
+      }
+    }
+  }
+}

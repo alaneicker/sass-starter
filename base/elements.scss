@@ -63,3 +63,8 @@ p {
 :-moz-placeholder {
   color: $gray-300;
 }
+
+// Select dropdown
+select::-ms-expand {
+  display: none;
+}

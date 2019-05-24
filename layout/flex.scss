@@ -57,19 +57,18 @@
   @include flexbox();
 }
 
-.flex\@small,
-.flex\@medium,
-.flex\@large {
-  &[class*="--hr"] > * + * {
-    margin-left: 0;
-    margin-right: 0;
-  }
-}
-
 @each $name, $breakpoint in $breakpoints {
   @media(min-width: $breakpoint) {
     .flex\@#{$name} {
       @include flexbox();
+    }
+  }
+  @media(max-width: $breakpoint) {
+    .flex\@#{$name} {
+      &[class*="--hr"] > * + * {
+        margin-left: 0;
+        margin-right: 0;
+      }
     }
   }
 }

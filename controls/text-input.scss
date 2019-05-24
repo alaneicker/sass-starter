@@ -1,36 +1,5 @@
 .text-input {
-  background: $white;
-  border: rem(1) solid $gray-400;
-  border-radius: rem($base-border-radius);
-  height: $input-height;
-  font-size: inherit;
-  font-family: inherit;
-  padding: rem(8);
-  outline: 0;
-
-  &:focus {
-    @include focus-outline();
-  }
-
-  &--has-error {
-    border-color: $red-100;
-  }
-
-  @each $size in $input-sizes {
-    &--#{$size} {
-      width: rem($size);
-    }
-  }
-
-  @each $name, $breakpoint in $breakpoints {
-    @media(min-width: $breakpoint) {
-      @each $size in $input-sizes {
-        &--#{$size}\@#{$name} {
-          width: rem($size);
-        }
-      }
-    }
-  }
+  @include input();
 }
 
 textarea.text-input {
