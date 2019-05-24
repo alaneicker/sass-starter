@@ -15,7 +15,7 @@
   transition: background .3s linear;
   
   &:hover {
-    background: $gray-200;
+    background: $blue-000;
   }
   
   &:focus,
@@ -40,6 +40,14 @@
   &--block {
     display: block;
     width: 100%;
+  }
+
+  @each $name, $value in $button-sizes {
+    &--#{$name} {
+      padding: rem(nth($value, 2) nth($value, 3));
+      min-height: rem(nth($value, 1));
+      font-size: rem(nth($value, 4));
+    }
   }
   
   @each $name, $value in $btn-colors {

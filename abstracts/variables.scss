@@ -51,6 +51,14 @@ $display-options: block, inline-block, none, flex, inline-flex !default;
 // List spacing
 $list-spacing: 8 16 24 !default;
 
+// Buttons sizes
+// size: (<min height>, <top/bottom padding>, <left/right padding>, <font size>)
+$button-sizes: (
+  sm: (16, 4, 8, 14),
+  md: (36, 4, 16, 14),
+  lg: (50, 12, 32, 20)
+);
+
 // Inputs
 $input-height: 44;
 $text-area-height: 120 !default;
