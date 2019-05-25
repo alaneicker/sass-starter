@@ -20,6 +20,7 @@
   
   &:focus,
   &:active {
+    background: $blue-000;
     @include focus-outline();
   }
   
@@ -56,6 +57,8 @@
       color: nth($value, 2);
       border: 0;
       
+      &:active,
+      &:focus,
       &:hover {
         background: darken(nth($value, 1), 10%);
       }
