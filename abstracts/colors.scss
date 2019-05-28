@@ -64,8 +64,20 @@ $background-colors: (
 ) !default;
 
 $modal-themes: (
-  info: $blue-200,
-  confirmation: $green-100,
-  error: $red-100,
-  warning: $orange-100,
+  info: (
+    background-color: $blue-200,
+    font-color: $white
+  ),
+  confirmation: (
+    background-color: $green-100,
+    font-color: $white
+  ),
+  error: (
+    background-color: $red-100,
+    font-color: $white
+  ),
+  warning: (
+    background-color: $orange-100,
+    font-color: $white
+  ),
 ) !default;
