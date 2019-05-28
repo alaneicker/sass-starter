@@ -51,16 +51,16 @@
     }
   }
   
-  @each $name, $value in $btn-colors {
+  @each $name, $map in $btn-colors {
     &--#{$name} {
-      background: nth($value, 1);
-      color: nth($value, 2);
+      background: map-get($map, background-color);
+      color: map-get($map, font-color));
       border: 0;
       
       &:active,
       &:focus,
       &:hover {
-        background: darken(nth($value, 1), 10%);
+        background: darken(map-get($map, background-color)), 10%);
       }
     }
   }
