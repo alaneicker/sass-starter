@@ -54,7 +54,7 @@
   @each $name, $map in $btn-colors {
     &--#{$name} {
       background: map-get($map, background-color);
-      color: map-get($map, font-color));
+      color: map-get($map, font-color);
       border: 0;
       
       &:active,
