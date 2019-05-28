@@ -43,11 +43,11 @@
     width: 100%;
   }
 
-  @each $name, $value in $button-sizes {
+  @each $name, $map in $button-sizes {
     &--#{$name} {
-      padding: rem(nth($value, 2) nth($value, 3));
-      min-height: rem(nth($value, 1));
-      font-size: rem(nth($value, 4));
+      padding: map-get($map, padding);
+      min-height: map-get($map, min-height);
+      font-size: map-get($map, font-size);
     }
   }
   
