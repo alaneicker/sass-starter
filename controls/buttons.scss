@@ -45,9 +45,9 @@
 
   @each $name, $map in $button-sizes {
     &--#{$name} {
-      padding: map-get($map, padding);
-      min-height: map-get($map, min-height);
-      font-size: map-get($map, font-size);
+      padding: rem(map-get($map, padding));
+      min-height: rem(map-get($map, min-height));
+      font-size: rem(map-get($map, font-size));
     }
   }
   
