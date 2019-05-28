@@ -63,6 +63,20 @@
     overflow: auto;
   }
 
+  @each $theme-name, $bg-color in $modal-themes {
+    &--#{theme-name} {
+      &__dialog {
+        background-color: $bg-color;
+        color: $white;
+      }
+
+      &__header,
+      &__footer {
+        border-color: rgba(255,255,255,0.5);
+      }
+    }
+  }
+
   @media (min-width: $breakpoint-medium) {
     &__dialog {
       max-width: 70%;
