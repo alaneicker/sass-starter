@@ -52,7 +52,6 @@ $display-options: block, inline-block, none, flex, inline-flex !default;
 $list-spacing: 8 16 24 !default;
 
 // Buttons sizes
-// size: (<min height>, <top/bottom padding>, <left/right padding>, <font size>)
 $button-sizes: (
   sm: (
     min-height: 16,
