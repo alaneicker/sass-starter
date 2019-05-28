@@ -54,9 +54,21 @@ $list-spacing: 8 16 24 !default;
 // Buttons sizes
 // size: (<min height>, <top/bottom padding>, <left/right padding>, <font size>)
 $button-sizes: (
-  sm: (16, 4, 8, 14),
-  md: (36, 4, 16, 14),
-  lg: (50, 12, 32, 20)
+  sm: (
+    min-height: rem(16),
+    padding: rem(4, 8),
+    font-size: rem(14)
+  ),
+  md: (
+    min-height: rem(36),
+    padding: rem(4, 16),
+    font-size: rem(14)
+  ),
+  lg: (
+    min-height: rem(50),
+    padding: rem(12, 32),
+    font-size: rem(20)
+  )
 );
 
 // Inputs
