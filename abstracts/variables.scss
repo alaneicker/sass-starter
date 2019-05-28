@@ -55,19 +55,19 @@ $list-spacing: 8 16 24 !default;
 // size: (<min height>, <top/bottom padding>, <left/right padding>, <font size>)
 $button-sizes: (
   sm: (
-    min-height: rem(16),
-    padding: rem(4, 8),
-    font-size: rem(14)
+    min-height: 16,
+    padding: 4 8,
+    font-size: 14
   ),
   md: (
-    min-height: rem(36),
-    padding: rem(4, 16),
-    font-size: rem(14)
+    min-height: 36,
+    padding: 4 16,
+    font-size: 14
   ),
   lg: (
-    min-height: rem(50),
-    padding: rem(12, 32),
-    font-size: rem(20)
+    min-height: 50,
+    padding: 12 32,
+    font-size: 20
   )
 );
 
