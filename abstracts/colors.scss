@@ -35,9 +35,18 @@ $text-colors: (
 ) !default;
 
 $btn-colors: (
-  primary: ($blue-200, $white), // (<background color>, <font color>)
-  secondary: ($green-100, $white),
-  tertiary: ($red-100, $white)
+  primary: (
+    background-color: $blue-200, 
+    font-color: $white
+  ),
+  secondary: (
+    background-color: $green-100,
+    font-color: $white
+  ),
+  tertiary: (
+    background-color: $red-100,
+    font-color: $white
+  )
 ) !default;
 
 $background-colors: (
