@@ -60,7 +60,7 @@
       &:active,
       &:focus,
       &:hover {
-        background: darken(map-get($map, background-color)), 10%);
+        background: darken(map-get($map, background-color), 10%);
       }
     }
   }
